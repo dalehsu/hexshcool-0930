@@ -1,0 +1,515 @@
+
+
+/*全域設定.wrapper*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+      font-family: inherit;
+      font-weight: inherit;
+}
+
+
+body{
+	font-family: "微軟正黑體";
+	font-weight: bold;
+}
+
+h2{
+	font-size: 45px;
+	color: #00DDAA;
+	padding: 150px 35px;
+}
+
+h3{
+	color: #00DDAA;
+	font-size: 36px;
+}
+
+h4{
+	font-size: 20px;
+}
+
+span{
+	color: gray;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.wrap{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.context{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+/*導覽頁nav&底部footer共同項目*/
+
+.nav{
+	padding-top: 5px;
+	background: rgba(81,77,77,0.3);
+	height: 60px;
+}
+
+.nav h1{
+	float: left;
+	padding-left: 25px;
+}
+
+.nav h1 a{
+	background-image: url(images/hexschool_logo.png);
+	width: 183px;
+	height: 45px;
+	display: block;
+	text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+}
+
+.nav ul{
+	float: right;
+}
+
+.nav li{
+	float: left;
+	padding: 20px 30px;
+}
+
+.nav li a{
+	color: white;
+}
+
+.nav li a:hover{
+	color: #00DDAA;
+	border-bottom: 5px solid #00DDAA;
+	cursor: pointer
+}
+
+
+.footer{
+	width: 1000px;
+	background: #444444;
+	float: left;
+}
+
+.footer h5{
+	float: left;
+	margin: 10px 25px; 
+}
+
+
+.footer span{
+	color: gray;
+	padding-left: 40px;
+	font-size: 16px;
+}
+
+.footer ul{
+	float: right;
+}
+
+.footer li{
+	float: left;
+	padding: 30px 15px;
+}
+
+/*header的背景圖*/
+
+#bg-1{
+	background-image: url(images/bg_01.jpg);
+	height: 560px;
+}
+
+#bg-2{
+	background-image: url(images/bg_02.jpg);
+	height: 560px;
+}
+
+#bg-3{
+	background-image: url(images/bg_03.jpg);
+	height: 560px;
+
+}
+
+/*index-header部分*/
+
+.index-info h2{
+	line-height: 65px;
+	float: left;
+}
+
+.index-info span{
+	color: white;
+	font-size: 45px;
+}
+
+/*course-header&/*FQA-header部分*/
+
+.Course-info h2{
+	color: white;
+	line-height: 45px;
+}
+
+.FQA-info h2{
+	color: white;
+	line-height: 25px;
+	padding: 150px 35px 50px;
+}
+.Course-info span, .FQA-info span{
+	color: #00DDAA;
+}
+
+/*FQA-header部分*/
+
+.FQA-info h2{
+	text-align: center;
+}
+
+/*各頁面header的link_btn及search_box*/
+
+#login_link{               /*首頁按鈕*/
+	background: #00DDAA;
+	width: 180px;
+	height: 35px;
+	color: white;
+	border-radius: 3px;
+	border: 1px;
+	display: block;
+	margin-top: 10px;
+}
+
+#gotoclass_link{           /*課程按鈕*/
+	background: #00DDAA;
+	width: 180px;
+	height: 35px;
+	color: white;
+	border-radius: 3px;
+	border: 1px;
+	display: block;
+	margin-top: 25px;
+}
+
+
+.search_link{             /*收尋框*/
+	content:url(images/search.png);
+	position:absolute;
+	right: 520px;
+	top: 340px;
+}
+
+.search{
+	background: white;
+	width: 500px;
+	height: 35px;
+	border-radius: 3px;
+	margin: 0 250px;
+}
+
+/*index精選課程*/
+/*wrap:w=1000*/
+
+
+.class_item_title h3{
+	float: left;
+	margin-left: 25px;
+}
+
+.class_item_title span{
+	padding-left: 15px;
+	font-weight: normal;
+}
+
+.class-bnt input{
+	float: right;
+	margin-right: 25px;
+	padding: 5px;
+	border: 1px solid #00DDAA;
+	border-radius: 5px;
+	background-color: white;
+	color: #00DDAA;
+}
+
+.class_item ul{
+	float: left;
+	text-align: center;
+}
+
+.class_item li{
+	float: left;
+	width: 290px;
+	margin: 20px;
+	padding-top: 15px;
+	line-height: 26px;
+	border: 1px solid gray;
+	-webkit-box-shadow: 5px 5px 5px gray;
+    -ms-box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.class_item li h4{
+	text-align: center;
+	font-size: 18px;
+}
+
+.class_item li p{
+	text-align: justify; /*chrome*/
+	text-justify: distribute; /*firefox,ie,edge */
+	padding: 15px;
+	line-height: 26px;
+	color: gray;
+}
+
+/*index網頁裡的課程比較*/
+
+.class_compare{
+	margin-top: 25px;
+}
+
+.class_compare h3{
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+
+
+.class_compare span{
+	font-weight: normal;
+	padding-left: 15px;
+}
+
+.class_compare table{
+	width: 950px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.class_compare table th{
+  background-color: #f7f7f7;
+}
+
+.price th,.price td{
+	border-top: solid 3px #f7f7f7;
+	border-bottom: solid 3px #f7f7f7;
+	font-size: 18px;
+	padding: 15px 35px;
+	text-align: center;
+}
+
+.best{
+	color: #00DDAA;
+}
+
+
+/*Course網頁裡的關於老師及課程*/
+/*wrap:w=1000*/
+
+.main{
+	margin: 35px 100px;
+}
+
+.about_teacher img{
+	float: left;
+}
+
+.about_teacher h3{
+	float: left;
+	padding: 55px;
+	line-height: 50px;
+}
+
+.about_teacher span{
+	display: block;
+	color: black;
+	font-size: 36px;
+}
+
+.about_teacher ul{
+	float: left;
+	list-style: disc;
+	list-style-position: outside;
+	padding-top: 60px;
+	color: gray;
+}
+
+.about_teacher li,.about_course li{
+	padding-left: 20px;
+	line-height: 25px;
+}
+
+
+.about_course h3{
+	margin-top: 35px;
+	font-size: 36px;
+	color: #00DDAA;
+	padding-bottom: 25px;
+}
+
+.about_course span{
+	color: gray;
+	font-weight: normal;
+	padding-left: 15px;
+}
+
+.about_course ol{
+	list-style-type:decimal;
+	list-style-position:outside;
+	display: inline-block;
+	padding-left: 25px;
+}
+
+
+/*Course網頁裡的課程大綱*/
+/*wrap:w=1000*/
+
+.about_coursetext{
+	margin-top: 25px;
+	text-align: left;
+}
+
+.about_coursetext span{
+	padding-left: 15px;
+	font-weight: normal;
+}
+
+.about_coursetext table{
+	width: 800px;
+	margin-top: 20px;
+}
+
+.about_coursetext th ,.about_coursetext td{
+	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	text-indent: 25px;
+}
+
+.about_coursetext th{
+ 	background-color: #f7f7f7;
+}
+
+.about_coursetext td{
+	color: gray;
+}
+/*FQA網頁裡的常見問題*/
+/*wrap:w=1000*/
+
+.question_list em{
+	color: #00DDAA;
+}
+
+.common_problem h3 span,.how_to_paid h3 span,.how_to_refund h3 span,.how_to_refund h3 span{
+	font-weight: normal;
+	padding-left: 15px;
+}
+
+.common_problem h4,.how_to_paid h4,.how_to_refund h4,.how_to_refund h5{
+	padding: 20px 5px;
+	text-align: left;
+	line-height: 24px;
+
+}
+
+.how_to_paid h4 ol,{
+	list-style-type:decimal;
+	list-style-position:outside;
+	margin-left: 45px;
+}
+
+.how_to_refund h4 ul,.how_to_refund h5 ul{
+	list-style: disc;
+	list-style-position: outside;
+	margin-left: 45px;
+}
+
+.how_to_paid h4 li, .how_to_refund h4 li,.how_to_refund h5 li{
+	padding-left: 15px;
+	font-size: 14px;
+	color: gray;
+}
+
+.common_problem h4 span,.how_to_paid h4 span,.how_to_refund h4 span{
+	font-size: 14px;
+	color: gray;
+}
+
+/*index頁面-聯絡我們*/
+
+.join_us{
+	width: 1000px;
+	margin-top: 30px;
+	background: #DDDDDD;
+	float: left;
+}
+
+.join_us h6{
+	float: left;
+	font-size: 25px;
+	line-height: 45px;
+	padding: 55px 40px 35px 150px;
+}
+
+
+
+/*F&Q.index.course的聯絡我們*/
+
+.ifo{
+	margin: 35px 30px;
+	float: left;
+}
+
+.ifo input{
+	display: block;
+	width: 300px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #DDDDDD;
+}
+
+.ifo textarea{
+	width: 300px;
+	height: 60px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #DDDDDD;
+}
+
+.send_ifo input{
+	background: #00DDAA;	
+	padding: 5px;
+	width: 85px;
+	float: right;
+	color: white;
+}
+
+.join_us_btn{
+	float: left;
+	margin: 80px 25px;
+}
+
+.join_us_btn input{
+	background: #00DDAA;	
+	padding: 5px;
+	width: 120px;
+	height: 45px;
+	float: right;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #DDDDDD;
+}

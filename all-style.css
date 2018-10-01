@@ -43,7 +43,6 @@ a{
 	text-decoration: none;
 }
 
-
 .wrap{
 	margin: 0 auto;
 	width: 1000px;
@@ -183,8 +182,8 @@ a{
 }
 
 /*各頁面header的link_btn及search_box*/
-
-#login_link{               /*首頁按鈕*/
+ /*首頁按鈕*/
+#login_link{              
 	background: #00DDAA;
 	width: 180px;
 	height: 35px;
@@ -195,7 +194,9 @@ a{
 	margin-top: 10px;
 }
 
-#gotoclass_link{           /*課程按鈕*/
+
+  /*課程按鈕*/
+#gotoclass_link{         
 	background: #00DDAA;
 	width: 180px;
 	height: 35px;
@@ -206,12 +207,11 @@ a{
 	margin-top: 25px;
 }
 
+/*收尋框*/
+.search_link{  
+  background: url('images/search.png') no-repeat 475px 5px;
+  padding: 3px 3px 30px 3px;
 
-.search_link{             /*收尋框*/
-	content:url(images/search.png);
-	position:absolute;
-	right: 520px;
-	top: 340px;
 }
 
 .search{
@@ -220,6 +220,11 @@ a{
 	height: 35px;
 	border-radius: 3px;
 	margin: 0 250px;
+}
+
+/*讓滑鼠滑過去會出現手的圖案*/
+#login_link:hover,#gotoclass_link:hover{
+	cursor: pointer;
 }
 
 /*index精選課程*/
@@ -244,6 +249,11 @@ a{
 	border-radius: 5px;
 	background-color: white;
 	color: #00DDAA;
+}
+
+/*讓滑鼠滑過去會出現手的圖案*/
+.class-bnt input:hover{
+	cursor: pointer;
 }
 
 .class_item ul{
@@ -498,6 +508,11 @@ a{
 	color: white;
 }
 
+/*讓滑鼠滑過去會出現手的圖案*/
+.send_ifo input:hover{
+	cursor: pointer;
+}
+
 .join_us_btn{
 	float: left;
 	margin: 80px 25px;
@@ -512,4 +527,9 @@ a{
 	color: white;
 	border-radius: 5px;
 	border: 1px solid #DDDDDD;
+}
+
+/*讓滑鼠滑過去會出現手的圖案*/
+.join_us_btn input:hover{
+	cursor: pointer;
 }

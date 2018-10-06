@@ -209,11 +209,14 @@ a{
 }
 
 /*收尋框*/
-.search_link{  
-  background: url('images/search.png') no-repeat 475px 5px;
-  padding: 3px 3px 30px 3px;
-
+.search_link::before{
+	content: " ";
+	display: block;
+	height: 35px;
+	width: 500px;
+	background: url(images/search.png) no-repeat 475px 7px;
 }
+
 
 .search{
 	background: white;
